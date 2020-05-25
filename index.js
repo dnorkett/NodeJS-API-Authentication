@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');           //package to hide sensitive info
+
 //Import Routes
 const authRoute = require('./routes/auth');
 
